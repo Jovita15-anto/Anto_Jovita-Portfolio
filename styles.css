@@ -353,6 +353,17 @@ section {
   transition: 0.3s ease-in-out;
 }
 
+.courses-certifications ul {
+  width: fit-content;
+  margin: 0 auto;
+  padding-left: 20px;
+  text-align: left;
+}
+
+.courses-certifications li {
+  margin-bottom: 8px;
+}
+
 /* ===================== SCROLLBAR ===================== */
 ::-webkit-scrollbar {
   width: 10px;
@@ -599,6 +610,12 @@ g .project-card p {
 .contact-points {
   margin-bottom: 20px;
   line-height: 1.8;
+  list-style: none;
+  padding-left: 0;
+}
+
+.contact-points li {
+  list-style: none;
 }
 
 .contact-right form {
